@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+.card{
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    width: 400px;
+    height: 85vh;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.display{
+    height: 35%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.16), 5px 5px 12px #fff;
+    display: flex;
+    justify-content: center;
+}
+.display input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    font-size: 30px;
+    text-align: end;
+}
+.button{
+    background-color: #f1f3f5;
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.tombol-kiri{
+    width: 65%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f3f5;
+    margin-top: 20px;
+}
+.tombol{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16), 5px 5px 12px #fff;
+    box-shadow: inset -5px -5px 12px rgba(0, 0, 0, 0.16), -5px -5px 12px #fff;
+    background-color: #f1f3f5;
+    color: tomato;
+    font-weight: bold;
+    font-size: 16px;
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tombol:hover{
+    transform: scale(0.9);
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.16), 5px 5px 12px #fff;
+
+}
+.tombol-kanan{
+    background-color: wheat;
+    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0.26), 5px 5px 12px rgba(0, 0, 0, 0.26);
+    width: 30%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+
